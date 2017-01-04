@@ -1,0 +1,28 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "./node_modules/.bin/electron-rebuild"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "bluebird": "^3.4.7",
+    "electron": "^1.4.1",
+    "electron-rebuild": "^1.5.4"
+  },
+  "dependencies": {
+    "mplayer": "^2.1.0"
+  }
+}
